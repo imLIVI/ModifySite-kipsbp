@@ -271,11 +271,11 @@ h1 {
 .top_nead .header_toolbar_menu li a:before {
     content: '';
     background: url(../img/svg/str_menu.svg) no-repeat center;
-    width: 11rem;
-    height: 6rem;
+    width: 15rem;
+    height: 10rem;
     position: absolute;
     right: -22rem;
-    top: 11rem;
+    top: 10rem;
     /*! background-size: 100%; */
 }
 
