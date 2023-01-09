@@ -1675,7 +1675,7 @@ footer ul li:before {
 
 .bottom_wrapper {
     width: 100%;
-    height: 261rem;
+	height: 100%;
     clear: both;
     background-color: #303c50
 }
@@ -1826,7 +1826,6 @@ footer ul li:before {
 }
 
 .sety_block .isq_block:hover {
-    text-decoration: underline;
     cursor: pointer
 }
 
@@ -1879,7 +1878,7 @@ footer ul li:before {
 
 .sety_block .skype a:hover {
     color: #7eb899;
-    text-decoration: underline
+    /*text-decoration: underline*/
 }
 
 .sety_block .skype:before {
@@ -1895,7 +1894,7 @@ footer ul li:before {
 .sety_block .mail a {
     position: relative;
     padding-left: 27rem;
-    color: #7eb899;
+    color: #fff;
     font-size: 16rem;
     text-decoration: none
 }
@@ -1912,7 +1911,7 @@ footer ul li:before {
 }
 
 .sety_block .mail a:hover {
-    text-decoration: underline
+    color: #7eb899;
 }
 
 .system_block {
@@ -1926,9 +1925,10 @@ footer ul li:before {
     padding-left: 31rem;
     color: #fff;
     font-size: 17rem;
-    text-decoration: underline;
+    text-decoration: none;
     display: block;
-    margin-bottom: 18rem
+    margin-bottom: 18rem;
+	width: 130rem;
 }
 
 .system_block .karta:before {
@@ -1942,7 +1942,7 @@ footer ul li:before {
 }
 
 .system_block .karta:hover {
-    text-decoration: none
+    color: #7eb899;
 }
 
 .system_block .paymet_block {
@@ -1977,16 +1977,16 @@ footer ul li:before {
 }
 
 .system_block .paymet_block img {
-    max-width: none;
-    max-height: none;
+    max-width: 200rem;
+    max-height: 200rem;
     display: none
 }
 
 .system_block .paymet_block:hover img {
     display: block;
     position: absolute;
-    top: -52rem;
-    left: -30rem
+    top: -48rem;
+    left: 150rem
 }
 
 .system_block .paymet_block:hover:after {
@@ -2093,7 +2093,8 @@ footer ul li:before {
 }
 
 .bottom_footer .copy a:hover {
-    text-decoration: underline
+    text-decoration: underline;
+	color: #6baa89;
 }
 
 .oshibka {
@@ -3693,7 +3694,7 @@ td.price button {
 
 
 
-						#nav-vkl_i-4 tr.active td,<?//29-01-20229:32actQ?>
+						#nav-vkl_i-4 tr.active td,#PHP0001#
 						#nav-vkl_i-3 tr.active td{
 							background:rgba(255, 255, 0, 0.47);
 						}
