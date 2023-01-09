@@ -593,7 +593,8 @@ h1 {
 }
 
 .bottom_header .search_block .btn_search:hover {
-    background: url(../img/svg/lupa_hov.svg) no-repeat center
+	background: url(../img/svg/lupa_hov.svg) no-repeat center;
+	background-size: contain;
 }
 
 .bottom_header .search_block .btn_analog {
@@ -1878,7 +1879,6 @@ footer ul li:before {
 
 .sety_block .skype a:hover {
     color: #7eb899;
-    /*text-decoration: underline*/
 }
 
 .sety_block .skype:before {
